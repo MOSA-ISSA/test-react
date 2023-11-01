@@ -1,0 +1,46 @@
+/* Settings.css */
+.settings-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%; /* Make all buttons the same width */
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Take up available space */
+    flex-shrink: 0; /* Prevent shrinking */
+    background-color: #0056b3;
+    /* height: 100px; */
+    /* width: 100px; */
+  }
+  

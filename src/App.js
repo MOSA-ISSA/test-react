@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {RouterProvider } from 'react-router-dom';
+import Router from './routes/Router';
+// import Home from './routes/pages/Home';
+// import User from './routes/pages/User';
+// import Settings from './routes/pages/Settings';
 
 function App() {
+  // console.log("tset");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.StrictMode>
+      <RouterProvider router={Router} />
+    </React.StrictMode>
   );
 }
 
